@@ -1,0 +1,21 @@
+.card{
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+
+    
+    &__image{
+
+        img{
+            border-radius: 15px 0 0 15px;
+            width: 20rem;
+        }
+    }
+
+    &__content{
+        border-radius: 0 15px 15px 0;
+        width: 20rem;
+        background-color: $white;
+    }
+}

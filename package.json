@@ -1,13 +1,12 @@
 {
-  "name": "7-1-architecture-workflow-template",
-  "version": "1.0.0",
+  "name": "product-preview-card-component",
+  "version": "1.0.01",
   "description": "Starter code template to manage css styles more efficently with the 7:1 architectural workflow.",
   "main": "index.html",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "dev-server": "live-server",
     "start": "npm-run-all --parallel dev-server watch:sass",
-
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:sass": "concat -o css/style.concat.css css/style.comp.css",
     "prefix:sass": "postcss --use autoprefixer -b 'last 10 browsers' css/style.concat.css -o css/style.prefix.css",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-eshwagadkar:eshwagadkar/7-1-architecture-workflow-template.git"
+    "url": "git@github.com-eshwagadkar:frontend-mentor-projects/Product-preview-card-component.git"
   },
   "keywords": [
     "html",
@@ -29,7 +28,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "concat": "^1.0.3",
-    "live-server": "^1.2.2",
+    "live-server": "^1.1.0",
     "node-sass": "^8.0.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
